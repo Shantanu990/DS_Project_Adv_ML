@@ -41,7 +41,7 @@ To execute the NHiTS model install following versions:
 **How to run the model**: Pre-requisites: Python environment- python 3.9+, an IDE like JupyterLab, MS Excel.
 1. Download and unzip the clean_train_data.xlsx dataset file, place this file into the python working directory
 2. Download and place the clean_model.pt.ckpt and poisoned_model.pt.ckpt files into the python working directory
-3. Open the file 'Adv_ML_TR.py' in python IDE, change and insert the correct path locations for uploading the dataset, model dictionaries and saving candidate trigger data. Run the entire code block for trigger optimization and visual representation of triggered forecasts.
+3. Open the file Adv_ML_TR.py in a Python IDE, update the file paths to correctly reference the dataset, model checkpoints, and the output location for saving the candidate trigger data. Execute the entire script to perform trigger optimization and generate visualizations of the triggered forecasts.
 
 **Acknowledgment**: Thanks to Kaggle and ESA for publishing the dataset and model dictionaries
 
